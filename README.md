@@ -18,22 +18,3 @@ Fully modular architecture (Lexer, Parser, Evaluator separated)
 
 ---
 
-##  Folder Structure
-Smart_Compiler/
-├── backend/
-│ ├── app.py
-│ ├── core/
-│ │ ├── math_evaluator.py
-│ │ ├── markdown_parser.py
-│ │ ├── sql_lexer.py
-│ │ ├── sql_parser.py
-│ │ └── sql_executor.py
-│ └── sample.csv
-│
-├── frontend/
-│ ├── App.jsx
-│ ├── index.css
-│ └── main.jsx
-│
-├── README.md
-└── requirements.txt
